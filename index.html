@@ -26,25 +26,146 @@
   </head>
 
   <body>
-  <!--==================== HOME ====================-->
-      <section class="home" id="home">
-          <div class="home__container container grid">
-              <img src="images/home.png" alt="" class="home__img">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-leaf-line nav__logo-icon"></i>TSPD
+            </a>
 
-              <div class="home__data">
-                  <h1 class="home__title">
-                      Peta Jaringan Persampahan <br> Kabupaten Sleman
-                  </h1>
-                  <p class="home__description">
-                      Peta ini memberikan informasi mengenai persebaran  yang terdiri dari TPS/Rumah Sampah, TPS3R dan Transfer Depo di Kabupaten Sleman.
-                  </p>
-                  <a href="#steps" class="button button--flex">
-                      Explore <i class="ri-arrow-right-down-line button__icon"></i>
-                  </a>
-              </div>
-              </div>
-          </div>
-      </section>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pictures" class="nav__link">Picture</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#steps" class="nav__link">Map</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+        <div class="home__container container grid">
+            <img src="images/home.png" alt="" class="home__img">
+
+            <div class="home__data">
+                <h1 class="home__title">
+                    Peta Jaringan Persampahan <br> Kabupaten Sleman
+                </h1>
+                <p class="home__description">
+                    Peta ini memberikan informasi mengenai persebaran  yang terdiri dari TPS/Rumah Sampah, TPS3R dan Transfer Depo di Kabupaten Sleman.
+                </p>
+                <a href="#about" class="button button--flex">
+                    Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                </a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about" id="about">
+    <section class="about section container">     
+        <div class="about__container grid">
+            <img src="images/about.png" alt="" class="about__img">
+
+            <div class="about__data">
+                <h2 class="section__title about__title">
+                    Pengelolaan <br> Sampah
+                </h2>
+
+                <p class="about__description">
+                    Pengelolaan sampah menjadi salah satu isu penting dalam upaya menjaga lingkungan dan kesehatan masyarakat. Untuk mendukung efisiensi dan transparansi dalam pengelolaan sampah, 
+                    pembuatan webmap dapat menjadi solusi yang efektif. Webmap adalah sebuah aplikasi web yang memungkinkan pengguna untuk menampilkan informasi geografis secara interaktif.<br><br>
+
+                    Dalam konteks pengelolaan sampah, webmap ini dapat digunakan untuk memvisualisasikan lokasi yang diantaraya :
+                </p>
+
+                <div class="about__details">
+                    <p class="about__details-description">
+                        <i class="ri-checkbox-fill about__details-icon"></i>
+                        Tempat Penampungan Sampah (TPS)
+                    </p>
+                    <p class="about__details-description">
+                        <i class="ri-checkbox-fill about__details-icon"></i>
+                        TPS3R
+                    </p>
+                    <p class="about__details-description">
+                        <i class="ri-checkbox-fill about__details-icon"></i>
+                        Transfer Depo
+                    </p>
+                </div>
+                <p class="about__description">
+                    Dengan menggunakan webmap, pemerintah dan masyarakat dapat dengan mudah mengakses informasi mengenai lokasi dan status fasilitas pengelolaan sampah tersebut. Hal ini dapat membantu dalam 
+                    pengambilan keputusan, pemantauan, dan peningkatan efisiensi dalam pengelolaan sampah di suatu wilayah.
+                </p>
+
+                <a href="https://youtu.be/CGd3lgxReFE?si=eR-T8-shg_3U7n5O" class="button--link button--flex">
+                    Show More <i class="ri-arrow-right-down-line button__icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    </section>
+    
+    <!--========== PICTURE ==========-->
+    <section class="picture" id="pictures">
+    <section class="picture section container">     
+        <h2 class="section__title-center">
+            TPS/Rumah Sampah, <br> TPS3R dan Transfer Depo
+        </h2>
+
+        <div class="picture__container grid">
+            <div class="picture__content">
+                <img src="images/TPS.jpg" alt="" class="picture__img">
+                <h3 class="picture__title">TPS</h3>
+                <p class="picture__description">TPS (Tempat Penampungan Sementara)/Rumah Sampah adalah lokasi penampungan sampah sebelum diangkut ke tempat pendauran ulang, 
+                    pengolahan, dan/atau tempat pengolahan sampah terpadu.</p>
+            </div>
+
+            <div class="picture__content">
+                <img src="images/TPS3R.jpg" alt="" class="picture__img">
+                <h3 class="picture__title">TPS3R</h3>
+                <p class="picture__description">TPS3R (Tempat Pengelolaan Sampah Reuse Reduce Recycle) yang meliputi Reduce (Mengurangi), 
+                    Reuse (Menggunakan kembali), dan Recycle (Mendaur ulang) yang dilakukan dengan sistem pengolahan sampah menggunakan 
+                    inovasi teknologi mesin pencacah sampah dan pengayak kompos yang lebih efektif dan efesien.</p>
+            </div>
+
+            <div class="picture__content">
+                <img src="images/TD.jpg" alt="" class="picture__img">
+                <h3 class="picture__title">Transfer depo</h3>
+                <p class="picture__description">Transfer depo adalah lokasi tempat transfer sampah sebelum di bawa ke tempat pembuangan akhir (TPA).</p>
+            </div>
+        </div>
+    </section>
+    </section>
 
     <!--==================== STEPS ====================-->
     <section class="steps" id="steps">
@@ -74,15 +195,136 @@
         </section>
     </section>
 
+    <!--==================== CONTACT ====================-->
+    <section class="contact" id="contact">
+    <section class="contact section container">     
+        <div class="contact__container grid">
+            <div class="contact__box">
+                <h2 class="section__title">
+                    Reach out to us today <br> via any of the given <br> information
+                </h2>
+
+                <div class="contact__data">
+                    <div class="contact__information">
+                        <h3 class="contact__subtitle">Call us </h3>
+                        <span class="contact__description">
+                            <i class="ri-phone-line contact__icon"></i>
+                            +62-813-2566-6924
+                        </span>
+                    </div>
+
+                    <div class="contact__information">
+                        <h3 class="contact__subtitle">Write us by mail</h3>
+                        <span class="contact__description">
+                            <i class="ri-mail-line contact__icon"></i>
+                            dinywahidasumarny@mail.ugm.ac.id
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <form action="" class="contact__form">
+                <div class="contact__inputs">
+                    <div class="contact__content">
+                        <input type="email" placeholder="" class="contact__input">
+                        <label for="" class="contact__label">Email</label>
+                    </div>
+
+                    <div class="contact__content">
+                        <input type="text" placeholder="" class="contact__input">
+                        <label for="" class="contact__label">Subject</label>
+                    </div>
+
+                    <div class="contact__content contact__area">
+                        <textarea name="message" placeholder="" class="contact__input"></textarea>                              
+                        <label for="" class="contact__label">Message</label>
+                    </div>
+                </div>
+
+                <button class="button button--flex">
+                    Send Message
+                    <i class="ri-arrow-right-up-line button__icon"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </main>
+
     <!--==================== FOOTER ====================-->
     <footer class="footer section">
-        <div class="footer__container container grid">
-            <div class="footer__content">
-                <h3 class="footer__title">
-                    Teknologi Survei Pemetaan Dasar <br> Universitas Gadjah Mada
-                </h3>
+    <div class="footer__container container grid">
+    <div class="footer__content">
+        <a href="#" class="footer__logo">
+            <i class="ri-leaf-line footer__logo-icon"></i>TPSD
+        </a>
 
-        <p class="footer__copy">&#169; 2024.Diny Wahida Sumarny</p>
+        <h3 class="footer__title">
+            Subscribe to our newsletter <br> to stay update
+        </h3>
+
+        <div class="footer__subscribe">
+            <input type="email" placeholder="Enter your email" class="footer__input">
+
+            <button class="button button--flex footer__button">
+                Subscribe
+                <i class="ri-arrow-right-up-line button__icon"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="footer__content">
+        <h3 class="footer__title">Our Address</h3>
+
+        <ul class="footer__data">
+            <li class="footer__information">Jamblangan, Purwobinangun,</li>
+            <li class="footer__information">Pakem, Sleman,</li>
+            <li class="footer__information">Daerah Istimewa Yogyakarta</li>
+        </ul>
+    </div>
+
+    <div class="footer__content">
+        <h3 class="footer__title">Contact Us</h3>
+
+        <ul class="footer__data">
+            <li class="footer__information">+62-813-2566-6924</li>
+            
+            <div class="footer__social">
+                <a href="https://www.facebook.com/diny.sumarny?mibextid=ZbWKwL" class="footer__social-link">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/dinywhd_?igsh=MXUxYmY4MHFlOWUyNg==" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://x.com/Dinywhd_?t=7d3T3GFpsWRUrW-dgTOa5w&s=09" class="footer__social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+                <a href="https://github.com/Dnywhd" class="footer__social-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/diny-wahida-sumarny-5736462a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="footer__social-link">
+                    <i class="ri-linkedin-fill"></i>
+                </a>
+            </div>
+        </ul>
+    </div>
+
+    <div class="footer__content">
+        <h3 class="footer__title">
+            Data Source
+        </h3>
+
+        <div class="footer__cards">
+            <a href="https://geoportal.slemankab.go.id/layers/geonode_data:geonode:a__3404_5KB_PT_Jaringan_Persampahan_Sleman_2022" class="button--link button--flex">
+                Peta Jaringan Sampah <br> Kabupaten Sleman Tahun 2022 <i class=""></i>
+            </a>
+        </div>
+    </div>
+    </div>
+
+    <p class="footer__copy">&#169; 2024. DinyWahidaSumarny</p>
     </footer>
 
     <!--=============== SCROLL UP ===============-->
@@ -91,9 +333,9 @@
     </a>
 
     <!--=============== SCROLL REVEAL ===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
     
     <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
